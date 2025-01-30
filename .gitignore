@@ -1,0 +1,117 @@
+# macOS 관련 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS에서 생성하는 파일
+*.swp
+*.lock
+*.bak
+*.tmp
+*.temp
+*.DS_Store
+*.AppleDouble
+*.apdisk
+
+# Xcode 관련 파일
+*.xcuserstate
+*.xcuserdata
+*.xccheckout
+*.xcodeproj/*
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata
+!*.xcodeproj/xcshareddata/**/*
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata
+!*.xcworkspace/xcshareddata/**/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift Package Manager 관련 파일
+.build/
+.swiftpm/xcode/xcshareddata/
+.swiftpm/xcode/xcuserdata/
+
+# CocoaPods 관련 파일
+Pods/
+Podfile.lock
+
+# Carthage 관련 파일
+Carthage/Build/
+
+# Fastlane 관련 파일
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.junit
+
+# Derived Data
+DerivedData/
+
+# Logs
+*.log
+*.out
+
+# Temporary 및 기타 파일
+*.tmp
+*.temp
+*.swp
+*.lock
+*.bak
+*.xcuserdatad
+*.xcscmblueprint
+
+# Test 관련 파일
+test-results/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Archive 파일
+*.xcarchive
+
+# Frameworks
+*.framework
+*.dSYM.zip
+*.dSYM
+
+# 빌드된 앱 및 바이너리
+*.ipa
+*.app
+*.app.dSYM
+
+# SwiftLint 및 SwiftFormat 캐시
+.swiftlint.yml
+.swiftformat
+
+# Xcode previews 관련 파일
+.idea/
+*.icloud/
+
+# 환경 의존적 설정 파일
+*.xcdebugger/
+.env
+
+# Bundler 관련 파일
+.bundle/
+
+# 시뮬레이터 및 캐시 데이터
+Library/
+*.simruntime
+
+# Git 자체에 의해 생성된 파일
+*.orig
+
+# Preview Content (SwiftUI 미리보기 관련 파일)
+*/Preview Content/
+*/Preview Content/*
+
+# xcassets 내부의 Preview 관련 파일
+*.previewdevice/
+
