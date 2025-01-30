@@ -5,6 +5,8 @@
 //  Created by lyeev on 1/30/25.
 //
 
+import SwiftUI
+
 public struct ContentItem: Identifiable {
     public let id = UUID()
     
