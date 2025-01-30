@@ -24,6 +24,7 @@ public struct ContentItem: Identifiable {
 }
 
 public struct DefaultView: View {
+    public init() { }
     public var body: some View {
         Text("Select a menu")
     }
