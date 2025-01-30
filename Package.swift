@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "ContentViewKit", // 타겟 이름
             dependencies: [], // 의존성
-            path: "Sources" // 소스 파일이 위치한 디렉토리
+            //path: "Sources" // 소스 파일이 위치한 디렉토리
         ),
     ]
 )
