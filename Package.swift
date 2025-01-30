@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "ContentViewKit", // 패키지 이름
     platforms: [
-        .iOS(.v13), // 지원하는 플랫폼과 버전
+        .iOS(.v17), // 지원하는 플랫폼과 버전
         .macOS(.v14)
     ],
     products: [
