@@ -44,6 +44,10 @@ public struct ContentNavigation: View {
                 contentItem in
                 NavigationLink {
                     contentItem.content()
+                        .navigationTitle(contentItem.title)
+                        #if os(iOS)
+                        .navigationBarTitleDisplayMode(.inline)
+                        #endif
                 } label: {
                     ContentRow(
                         title: contentItem.title,
