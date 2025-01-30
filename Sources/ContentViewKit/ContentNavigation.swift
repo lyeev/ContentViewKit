@@ -29,9 +29,14 @@ struct ContentRow: View {
 }
 
 public struct ContentNavigation: View {
-    public let title: String
-    public let contentItems: [ContentItem]
-    public let rowHeight: CGFloat = 70
+    let title: String
+    let contentItems: [ContentItem]
+    let rowHeight: CGFloat
+    public init(title: String, contentItems: [ContentItem], rowHiehgt: CGFloat = 70) {
+        self.title = title
+        self.contentItems = contentItems
+        self.rowHeight = rowHiehgt
+    }
     
     public var body: some View {
         NavigationSplitView {
