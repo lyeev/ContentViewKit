@@ -10,10 +10,17 @@ import SwiftUI
 public struct ContentItem: Identifiable {
     public let id = UUID()
     
-    public let title: String
-    public let description: String
-    public let symbol: String
-    public let content: () -> AnyView
+    let title: String
+    let description: String
+    let symbol: String
+    let content: () -> AnyView
+    
+    public init(title: String, description: String, symbol: String, content: @escaping () -> AnyView) {
+        self.title = title
+        self.description = description
+        self.symbol = symbol
+        self.content = content
+    }
 }
 
 public struct DefaultView: View {
