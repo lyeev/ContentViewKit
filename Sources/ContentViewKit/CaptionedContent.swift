@@ -16,13 +16,14 @@ public struct CaptionedContent<Content: View>: View {
         VStack {
             if let upperCaption = self.upperCaption {
                 Text(upperCaption)
+                    .frame(width: captionWidth)
             }
             
             content
             
             Text(caption)
+                .frame(width: captionWidth)
         }
         .font(.system(.body, design: .monospaced))
-        .frame(maxWidth: captionWidth)
     }
 }
